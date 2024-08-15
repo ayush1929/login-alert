@@ -23,7 +23,7 @@ if not sender_email or not password:
     exit(1)
 
 # Define the directory where logs and images will be saved
-LOG_DIR = "C:\\Users\\AYUSH\\OneDrive\\Desktop\\GitHub\\login-alert\\logs and images"  # Change this path to your preferred directory
+LOG_DIR = "C:\\login-alert\\logs and images"  # Change this path to your preferred directory
 LOG_FILE = os.path.join(LOG_DIR, "login_log.txt")
 IMAGE_DIR = os.path.join(LOG_DIR, "images")
 
